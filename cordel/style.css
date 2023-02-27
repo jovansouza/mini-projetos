@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(48, 45, 45);
+}
+
+
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+header> h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+
+header > p{
+    padding-bottom: 50px;
+}
+header a, footer a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+section.normal{
+    background-color: aliceblue;
+    color: black;
+}
+section.imagem{
+    background-color: black;
+    color: aliceblue;
+}
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(32, 32, 32, 0.082);
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
