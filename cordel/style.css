@@ -79,10 +79,8 @@ section{
 }
 section#img01{
     background-image: url(background001.jpg);
-    background-position: right center;
-    background-size: 200vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: right;
+   
 }
 section#img02{
     background-image: url(background002.jpg);
