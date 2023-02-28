@@ -68,6 +68,7 @@ section.imagem > p{
 }
 section > p{
     padding-bottom: 2em;
+    font-size: 3vh;
 }
 section{
     padding-top: 10vh;
@@ -80,6 +81,7 @@ section{
 section#img01{
     background-image: url(background001.jpg);
     background-position:  center;
+    background-position: center ;
    
 }
 section#img02{
