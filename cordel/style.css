@@ -79,7 +79,7 @@ section{
 }
 section#img01{
     background-image: url(background001.jpg);
-    background-position: right center;
+    background-position: right bottom center;
 }
 section#img02{
     background-image: url(background002.jpg);
