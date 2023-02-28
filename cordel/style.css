@@ -1,13 +1,25 @@
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dancing+Script&family=Tilt+Prism&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tilt+Prism&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     
+}
+:root{
+    --font1:  'Tilt Prism', cursiva;
+    --font2: 'Dancing Script', cursiva;
+    --font3: 'Climate Crisis', cursiva;
 }
 
 
 html, body {
     min-height: 100vh;
     background-color: rgb(48, 45, 45);
+    font-family: var(--font2);
+    
 }
 
 
@@ -20,6 +32,9 @@ header{
 header> h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font1);
+    font-size: 4em;
+    font-size: 10vw;
 }
 
 
@@ -52,6 +67,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 1.5em;
+    font-size: 4vw;
 }
 
 footer {
