@@ -1,0 +1,1 @@
+precisa aprender php otário
